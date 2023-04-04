@@ -1,0 +1,25 @@
+{
+  "name": "express-anti-ddos",
+  "version": "0.0.1",
+  "description": "express.js projeleri için kolay ayarlanabilir trafik limitlendirme ve ddos koruması yazılımı",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint src --fix"
+  },
+  "types": "types/index.d.ts",
+  "keywords": [
+    "router",
+    "express",
+    "web",
+    "app"
+  ],
+  "author": "burak",
+  "license": "MIT",
+  "dependencies": {
+    "geoip-lite": "^1.4.7"
+  }
+}
